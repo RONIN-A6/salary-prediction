@@ -10,10 +10,10 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblit
+import joblib
 
-model = joblit.load("salary_prediction_model.pkl")
-encoder = joblit.load("label_encoder.pkl")
+model = joblib.load("salary_prediction_model.pkl")
+encoder = joblib.load("label_encoder.pkl")
 
 st.title("Salary Prediction")
 
